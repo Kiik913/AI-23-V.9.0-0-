@@ -10,7 +10,7 @@ py -m pip install sympy
 For Linux / macOS (python3):-
 python3 -m pip install wikipedia
 python3 -m pip install sympy
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 I also made this:-
 Analysing the use of CodePen for your "Cares & Laughs" project involves looking at both the platform's utility as an IDE and the nature of "prank-based" creative content.
 
@@ -36,9 +36,6 @@ The Good: Creativity in digital experiments can genuinely engage viewers, foster
 The Bad: Pranks, by design, rely on surprise, which can sometimes veer into negative territory if the reaction is not managed. If a prank feels startling or crosses boundaries, it may evoke fear rather than humour. Balancing "playful" with "thoughtful" is key to ensuring your audience feels included rather than targeted in an uncomfortable way.
 
 To maximise the success of your "Cares & Laughs" project, continue to lean into the technical challenge of building these interactions, while ensuring the "surprise" remains lighthearted and inclusive for your community.
-URL:-https://codepen.io/Kavyant-Kumar/pen/dPGJPKj Name:-Aura Lab: Cares & Laughs or Cares & Laughs Hub  Version:-vv11.6030 · Cares & Laughs – Googolplex
-
-
-
-
+URL:-https://codepen.io/Kavyant-Kumar/pen/dPGJPKj Name:-Aura Lab: Cares & Laughs or Cares & Laughs Hub  Version: vv11.6030 · Cares & Laughs – Googolplex. I am also in Youtube:-https://www.youtube.com/@CareLabStudio and Instagram:-https://www.instagram.com/kavyanthub/.Follow me and subscribe to it, old be so helpful and kind
+Last updated on May 2, 2026, maintained by Kavyant Kumar. This project is maintained and updated by the owner, and future updates will remain open for improvements and new ideas.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
