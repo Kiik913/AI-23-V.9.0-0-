@@ -3,10 +3,10 @@ Smart Python Assistant (CLI)
 Copyright (c) 2026 Kavyant Kumar
 All rights reserved.
 
-Author   : Kavyant Kumar (Cares & Laughs – Your Fun Lab / CareLabStudio)
-Version  : 9.0.0
-Year     : 2026
-Location : Ghaziabad,Uttar Pradesh Sector 2 block A Flat 101 1/33 Rajendar Nagar  India
+Author  : Kavyant Kumar (Cares & Laughs – Your Fun Lab / CareLabStudio)
+Version : 10.0.0
+Year    : 2026
+Location: Ghaziabad, Uttar Pradesh, Sector 2, Block A, Flat 101 1/33 Rajendar Nagar,  India
 
 Setup (run this in your terminal/command prompt before using):
 
@@ -19,7 +19,7 @@ Setup (run this in your terminal/command prompt before using):
       python3 -m pip install sympy
 """
 
-__version__ = "9.0.0"
+__version__ = "10.0.0"
 
 import wikipedia
 from sympy import symbols, Eq, solve, sympify
@@ -83,6 +83,8 @@ sites = {
     "slides": "https://docs.google.com/presentation/u/0/",
     "classroom": "https://classroom.google.com",
     "meet": "https://meet.google.com",
+
+    # coding / dev
     "geeksforgeeks": "https://www.geeksforgeeks.org",
     "w3schools": "https://www.w3schools.com",
     "leetcode": "https://leetcode.com",
@@ -91,8 +93,15 @@ sites = {
     "kaggle": "https://www.kaggle.com",
     "github_gist": "https://gist.github.com",
     "mdn": "https://developer.mozilla.org",
+    "pypi": "https://pypi.org",
+
+    # design / productivity
     "canva": "https://www.canva.com",
     "figma": "https://www.figma.com",
+    "notion": "https://www.notion.so",
+    "toggl": "https://track.toggl.com",
+
+    # learning platforms (core)
     "udemy": "https://www.udemy.com",
     "coursera": "https://www.coursera.org",
     "khan": "https://www.khanacademy.org",
@@ -105,11 +114,14 @@ sites = {
     "nta": "https://www.nta.ac.in",
     "jeemain": "https://jeemain.nta.nic.in",
     "jeeadvanced": "https://jeeadv.ac.in",
+
+    # coding envs / ML
     "replit": "https://replit.com",
     "glitch": "https://glitch.com",
     "colab": "https://colab.research.google.com",
     "huggingface": "https://huggingface.co",
-    "pypi": "https://pypi.org",
+
+    # your search
     "cares_search": "https://codepen.io/Kavyant-Kumar/pen/vEXPVmb",
 
     # extra JEE / study
@@ -122,23 +134,19 @@ sites = {
     "codechef": "https://www.codechef.com",
     "freecodecamp": "https://www.freecodecamp.org",
 
-    # productivity / notes
-    "notion": "https://www.notion.so",
-    "toggl": "https://track.toggl.com",
-
     # your custom links
     "cares": "https://codepen.io/Kavyant-Kumar/pen/dPGJPKj?",
     "kavyanthub": "https://www.instagram.com/kavyanthub/",
     "carelabstudio": "https://www.youtube.com/@CareLabStudio",
     "rickroll": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
 
-    # Browsers / search engines
+    # browsers / search engines
     "brave": "https://search.brave.com",
     "chrome": "https://www.google.com/chrome",
     "duckduckgo": "https://duckduckgo.com",
     "bing": "https://www.bing.com",
 
-    # Extra JEE / NEET and study sites
+    # extra JEE / NEET / study
     "vedantu": "https://www.vedantu.com",
     "embibe": "https://www.embibe.com",
     "toppr": "https://www.toppr.com",
@@ -190,10 +198,8 @@ sites = {
     "codewars": "https://www.codewars.com",
     "exercism": "https://exercism.org",
 
-    # --- General AI chatbots ---
+    # --- general AI chatbots ---
     "gemini": "https://gemini.google.com",
-    # chatgpt already defined above
-    # perplexity already defined above
     "copilot": "https://copilot.microsoft.com",
     "claude": "https://claude.ai",
     "sarvam": "https://sarvam.ai",
@@ -205,7 +211,7 @@ sites = {
     "blackbox_ai": "https://www.blackbox.ai",
     "phind": "https://www.phind.com",
 
-    # --- Coding assistants ---
+    # --- coding assistants ---
     "github_copilot": "https://github.com/features/copilot",
     "cursor": "https://www.cursor.com",
     "amazon_q": "https://aws.amazon.com/q/developer/",
@@ -215,7 +221,7 @@ sites = {
     "augment_code": "https://www.augmentcode.com",
     "aider": "https://aider.chat",
 
-    # --- Image / design / art ---
+    # --- image / design / art ---
     "midjourney": "https://www.midjourney.com",
     "leonardo": "https://leonardo.ai",
     "dalle": "https://labs.openai.com",
@@ -223,7 +229,7 @@ sites = {
     "playgroundai": "https://playground.com",
     "canva_magic": "https://www.canva.com/ai-image-generator",
 
-    # --- Video / image‑to‑video ---
+    # --- video / image-to-video ---
     "runway": "https://runwayml.com",
     "pika": "https://pika.art",
     "imagineart": "https://imagine.art",
@@ -231,24 +237,60 @@ sites = {
     "sora": "https://openai.com/sora",
     "kling": "https://klingai.com",
 
-    # --- Voice, meetings, notes ---
+    # --- voice, meetings, notes ---
     "otter": "https://otter.ai",
     "fireflies": "https://fireflies.ai",
     "tldv": "https://tldv.io",
     "scribe": "https://scribehow.com",
 
-    # --- Presentation / docs AI ---
+    # --- presentation / docs AI ---
     "tome": "https://beta.tome.app",
     "gamma": "https://gamma.app",
     "slidesai": "https://www.slidesai.io",
     "notion_ai": "https://www.notion.so/product/ai",
 
-    # --- Official safety links (India) ---
+    # --- official safety links (India) ---
     "india_helplines": "https://www.india.gov.in/directory/helpline",
     "staysafeonline": "https://www.mygov.in/staysafeonline",
     "cyber_safety_tips": "https://cybercrime.gov.in/Webform/Crime_OnlineSafetyTips.aspx",
-}
 
+    # extra global learning / courses
+    "edx": "https://www.edx.org",
+    "udacity": "https://www.udacity.com",
+    "academicearth": "https://academicearth.org",
+    "classcentral": "https://www.classcentral.com",
+    "skillup": "https://www.simplilearn.com/skillup-free-online-courses",
+    "simplilearn": "https://www.simplilearn.com",
+
+    # language learning
+    "duolingo": "https://www.duolingo.com",
+    "memrise": "https://www.memrise.com",
+    "busuu": "https://www.busuu.com",
+    "lingq": "https://www.lingq.com",
+    "vocabulary": "https://www.vocabulary.com",
+
+    # reading / OER
+    "openlibrary": "https://openlibrary.org",
+    "gutenberg": "https://www.gutenberg.org",
+    "wikibooks": "https://www.wikibooks.org",
+    "wikiversity": "https://www.wikiversity.org",
+    "oercommons": "https://www.oercommons.org",
+    "openlearn": "https://www.open.edu/openlearn/",
+    "alison": "https://alison.com",
+
+    # science / space
+    "sciencebuddies": "https://www.sciencebuddies.org",
+    "exploratorium": "https://www.exploratorium.edu",
+    "nasaeducation": "https://science.nasa.gov/learn",
+    "earthobservatory": "https://earthobservatory.nasa.gov",
+    "smithsonianlearning": "https://learninglab.si.edu",
+    "nationalgeographickids": "https://kids.nationalgeographic.com",
+    "britannica_online": "https://www.britannica.com",
+
+    # learning videos
+    "teded": "https://ed.ted.com",
+    "ted": "https://www.ted.com"
+}
 # ---------- Command descriptions (for help) ----------
 commands = {
     "wiki <topic>": "Wikipedia summary",
