@@ -1,5 +1,5 @@
-# AI-23-V.10.0-0-
-AI@23 (V.10.0.0) is a multi‑purpose AI assistant that combines chat, search, and creative tools into one interface, letting you generate answers, ideas, and content quickly while staying inside your browser.
+# AI-23- 10.1.0-
+AI@23 (V.10.1.0) is a multi‑purpose AI assistant that combines chat, search, and creative tools into one interface, letting you generate answers, ideas, and content quickly while staying inside your browser.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 For Windows (with PyLauncher):-
